@@ -1,6 +1,6 @@
 [원문:https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 
-# Airbnb JavaScript 스타일 가이드() {
+# 라이프포스트 자바스크립트 스타일 가이드
 
 
 ## <a name='TOC'><a name='TOC'>목차</a>
@@ -133,7 +133,7 @@
     ```
 
   - 길이를 알 수없는 경우는 Array#push를 사용하십시오.
-  
+
     ```javascript
     var someStack = [];
 
@@ -161,7 +161,7 @@
     itemsCopy = items.slice();
     ```
 
-  - Array와 비슷한(Array-Like)한 Object를 Array에 변환하는 경우는 Array#slice를 사용하십시오. 
+  - Array와 비슷한(Array-Like)한 Object를 Array에 변환하는 경우는 Array#slice를 사용하십시오.
 
     ```javascript
     function trigger() {
@@ -468,7 +468,7 @@
 
 ## <a name='hoisting'>Hoisting</a> [원문](https://github.com/airbnb/javascript#hoisting)
 
-  - 해당 스코프의 시작 부분에 Hoist된 변수선언은 할당되지 않습니다. 
+  - 해당 스코프의 시작 부분에 Hoist된 변수선언은 할당되지 않습니다.
 
     ```javascript
     // (notDefined가 전역 변수에 존재하지 않는다고 가정했을 경우)
@@ -1521,5 +1521,5 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 **[[⬆]](#TOC)**
 
-# };
+
 
